@@ -52,6 +52,8 @@ body {
 .instagram-wrapper .main div ul li a {
   font-size: 11px;
   margin: 0 10px;
+
+  flex-wrap: wrap;
 }
 
 .instagram-phone {
@@ -158,6 +160,41 @@ body {
 .app-download img {
   width: 130px;
   height: 39px;
+}
+
+@media (max-width: 1024px) {
+  .instagram-wrapper {
+    width: 90%;
+  }
+
+  .instagram-login {
+    width: 33%;
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 650px) {
+  .instagram-wrapper {
+    width: 90%;
+  }
+
+  .instagram-phone {
+    display: none;
+  }
+
+  .instagram-login {
+    width: 100%;
+  }
+
+  .group {
+    border: none;
+    background-color: #FAFAFA;
+  }
+
+  footer div {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 
