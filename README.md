@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Instagram" title="Instagram" src="./assets/instagram.png" />
+    <img alt="Instagram" title="Instagram" src="./assets/instagram.png" width=200px/>
 </h1>
 
 <p align="center">
@@ -11,7 +11,7 @@
 <br>
 
 <p align="center">
-  <img alt="Happy" src=".github/happy.png" width="100%">
+  <img alt="Happy" src="./assets/gif.gif" width="100%">
 </p>
 
 ## 🚀 Technologies
